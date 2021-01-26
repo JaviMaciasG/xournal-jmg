@@ -4,3 +4,4 @@ This is a simple xournal++ plugin that integrates work from [Ben Smith](https://
 
 To install, follow the instructions at https://xournalpp.github.io/guide/plugins/.
 
+gith
