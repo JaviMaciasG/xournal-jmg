@@ -14,22 +14,32 @@ function initUi()
   --  app.registerUi({["menu"] = "Ruler", ["callback"] = "ruler", ["accelerator"] = "w"});
   -- From xournal-keys by Ben Smith -- END
   -- From ColorCycle by Roland Lötscher -- START
-  app.registerUi({["menu"] = "Cycle through color list", ["callback"] = "cycle", ["accelerator"] = "<Alt>c"});
+  -- app.registerUi({["menu"] = "Cycle through color list", ["callback"] = "cycle", ["accelerator"] = "<Alt>c"});
   -- if you want to have multiple color lists you must use the app.registerUi function multiple times
   -- with different callback functions and accelerators
   -- From ColorCycle by Roland Lötscher -- END
   -- JMG: My color selection
-  app.registerUi({["menu"] = "White",      ["callback"] = "white", ["accelerator"] = "0"});
-  app.registerUi({["menu"] = "Yellow",     ["callback"] = "yellow", ["accelerator"] = "1"});
-  app.registerUi({["menu"] = "Orange",     ["callback"] = "orange", ["accelerator"] = "2"});
-  app.registerUi({["menu"] = "Magenta",    ["callback"] = "magenta", ["accelerator"] = "3"});
+  app.registerUi({["menu"] = "White",      ["callback"] = "white",      ["accelerator"] = "0"});
+  app.registerUi({["menu"] = "White",      ["callback"] = "white",      ["accelerator"] = "KP_0"});
+  app.registerUi({["menu"] = "Yellow",     ["callback"] = "yellow",     ["accelerator"] = "1"});
+  app.registerUi({["menu"] = "Yellow",     ["callback"] = "yellow",     ["accelerator"] = "KP_1"});
+  app.registerUi({["menu"] = "Orange",     ["callback"] = "orange",     ["accelerator"] = "2"});
+  app.registerUi({["menu"] = "Orange",     ["callback"] = "orange",     ["accelerator"] = "KP_2"});
+  app.registerUi({["menu"] = "Magenta",    ["callback"] = "magenta",    ["accelerator"] = "3"});
+  app.registerUi({["menu"] = "Magenta",    ["callback"] = "magenta",    ["accelerator"] = "KP_3"});
   app.registerUi({["menu"] = "LightGreen", ["callback"] = "lightgreen", ["accelerator"] = "4"});
-  app.registerUi({["menu"] = "LightBlue",  ["callback"] = "lightblue", ["accelerator"] = "5"});
-  app.registerUi({["menu"] = "Gray",       ["callback"] = "gray", ["accelerator"] = "6"});
-  app.registerUi({["menu"] = "Green",      ["callback"] = "green", ["accelerator"] = "7"});
-  app.registerUi({["menu"] = "Red",        ["callback"] = "red", ["accelerator"] = "8"});
-  app.registerUi({["menu"] = "Blue",       ["callback"] = "blue", ["accelerator"] = "9"});
-  app.registerUi({["menu"] = "Black",      ["callback"] = "black", ["accelerator"] = "."});
+  app.registerUi({["menu"] = "LightGreen", ["callback"] = "lightgreen", ["accelerator"] = "KP_4"});
+  app.registerUi({["menu"] = "LightBlue",  ["callback"] = "lightblue",  ["accelerator"] = "5"});
+  app.registerUi({["menu"] = "LightBlue",  ["callback"] = "lightblue",  ["accelerator"] = "KP_5"});
+  app.registerUi({["menu"] = "Gray",       ["callback"] = "gray",       ["accelerator"] = "6"});
+  app.registerUi({["menu"] = "Gray",       ["callback"] = "gray",       ["accelerator"] = "KP_6"});
+  app.registerUi({["menu"] = "Green",      ["callback"] = "green",      ["accelerator"] = "7"});
+  app.registerUi({["menu"] = "Green",      ["callback"] = "green",      ["accelerator"] = "KP_7"});
+  app.registerUi({["menu"] = "Red",        ["callback"] = "red",        ["accelerator"] = "8"});
+  app.registerUi({["menu"] = "Red",        ["callback"] = "red",        ["accelerator"] = "KP_8"});
+  app.registerUi({["menu"] = "Blue",       ["callback"] = "blue",       ["accelerator"] = "9"});
+  app.registerUi({["menu"] = "Blue",       ["callback"] = "blue",       ["accelerator"] = "KP_9"});
+  -- app.registerUi({["menu"] = "Black",      ["callback"] = "black",      ["accelerator"] = "b"});
   -- JMG: My tools selection
   app.registerUi({["menu"] = "Draw Rect", ["callback"] = "rectangle", ["accelerator"] = "r"});
   app.registerUi({["menu"] = "Draw Circle", ["callback"] = "circle", ["accelerator"] = "c"});
