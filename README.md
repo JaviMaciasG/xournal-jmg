@@ -12,13 +12,13 @@ To install, follow the instructions at https://xournalpp.github.io/guide/plugins
 
 2. Install configuration
 
-   1. Copy the files in this repository in a directory under (you can use any name for this directory, e.g. xournal-jmg):
+   1. Copy the files in this repository in a directory under (you can use any name for this directory, e.g. `xournal-jmg`):
       - /usr/share/xournalpp/plugins/ in GNU/Linux machines 
       - C:\Program Files\Xournal++\share\xournalpp\plugins\ in Windows boxes
       - Contents/Resources/plugins inside the Xournal++.app package in MacOS
 
    2. Start Xournal++
-   3. Go to "Plugin Menu | Plugin Manager" and in the list you will see at the bottom an entry for xournal-jmg (or any name you used for the directory under which you copied the files). Mark the checkbox and accept that dialog box.
+   3. Go to "Plugin Menu | Plugin Manager" and in the list you will see at the bottom an entry for `xournal-jmg` (or any name you used for the directory under which you copied the files). Mark the checkbox and accept that dialog box.
    4. Exit xournal++ and start it up again
    5. That's it
    
