@@ -27,18 +27,26 @@ function initUi()
   app.registerUi({["menu"] = "Orange",     ["callback"] = "orange",     ["accelerator"] = "KP_2"});
   app.registerUi({["menu"] = "Magenta",    ["callback"] = "magenta",    ["accelerator"] = "3"});
   app.registerUi({["menu"] = "Magenta",    ["callback"] = "magenta",    ["accelerator"] = "KP_3"});
-  app.registerUi({["menu"] = "LightGreen", ["callback"] = "lightgreen", ["accelerator"] = "4"});
-  app.registerUi({["menu"] = "LightGreen", ["callback"] = "lightgreen", ["accelerator"] = "KP_4"});
-  app.registerUi({["menu"] = "LightBlue",  ["callback"] = "lightblue",  ["accelerator"] = "5"});
-  app.registerUi({["menu"] = "LightBlue",  ["callback"] = "lightblue",  ["accelerator"] = "KP_5"});
-  app.registerUi({["menu"] = "Gray",       ["callback"] = "gray",       ["accelerator"] = "6"});
-  app.registerUi({["menu"] = "Gray",       ["callback"] = "gray",       ["accelerator"] = "KP_6"});
-  app.registerUi({["menu"] = "Green",      ["callback"] = "green",      ["accelerator"] = "7"});
-  app.registerUi({["menu"] = "Green",      ["callback"] = "green",      ["accelerator"] = "KP_7"});
-  app.registerUi({["menu"] = "Red",        ["callback"] = "red",        ["accelerator"] = "8"});
-  app.registerUi({["menu"] = "Red",        ["callback"] = "red",        ["accelerator"] = "KP_8"});
-  app.registerUi({["menu"] = "Blue",       ["callback"] = "blue",       ["accelerator"] = "9"});
-  app.registerUi({["menu"] = "Blue",       ["callback"] = "blue",       ["accelerator"] = "KP_9"});
+
+  app.registerUi({["menu"] = "Red",        ["callback"] = "red",        ["accelerator"] = "4"});
+  app.registerUi({["menu"] = "Red",        ["callback"] = "red",        ["accelerator"] = "KP_4"});
+
+  app.registerUi({["menu"] = "Gray",       ["callback"] = "gray",       ["accelerator"] = "5"});
+  app.registerUi({["menu"] = "Gray",       ["callback"] = "gray",       ["accelerator"] = "KP_5"});
+
+  app.registerUi({["menu"] = "Blue",       ["callback"] = "blue",       ["accelerator"] = "6"});
+  app.registerUi({["menu"] = "Blue",       ["callback"] = "blue",       ["accelerator"] = "KP_6"});
+
+  app.registerUi({["menu"] = "LightGreen", ["callback"] = "lightgreen", ["accelerator"] = "7"});
+  app.registerUi({["menu"] = "LightGreen", ["callback"] = "lightgreen", ["accelerator"] = "KP_7"});
+  app.registerUi({["menu"] = "LightBlue",  ["callback"] = "lightblue",  ["accelerator"] = "8"});
+  app.registerUi({["menu"] = "LightBlue",  ["callback"] = "lightblue",  ["accelerator"] = "KP_8"});
+  app.registerUi({["menu"] = "Green",      ["callback"] = "green",      ["accelerator"] = "9"});
+  app.registerUi({["menu"] = "Green",      ["callback"] = "green",      ["accelerator"] = "KP_9"});
+
+  app.registerUi({["menu"] = "Red",        ["callback"] = "red",        ["accelerator"] = "9"});
+  app.registerUi({["menu"] = "Red",        ["callback"] = "red",        ["accelerator"] = "KP_9"});
+
   -- app.registerUi({["menu"] = "Black",      ["callback"] = "black",      ["accelerator"] = "b"});
   -- JMG: My tools selection
   app.registerUi({["menu"] = "Draw Rect", ["callback"] = "rectangle", ["accelerator"] = "r"});
@@ -49,17 +57,17 @@ end
 -- Predefined colors copied from LoadHandlerHelper.cpp 
 -- modify to your needs 
 local colorList = { 
-  {"white", 0xffffff},
-  {"yellow", 0xffff00},    
-  {"orange", 0xff8000}, 
-  {"magenta", 0xff00ff},
-  {"lightgreen", 0x00ff00}, 
-  {"lightblue", 0x00c0ff}, 
-  {"gray", 0x808080},   
-  {"green", 0x008000},
-  {"red", 0xff0000},        
-  {"blue", 0x3333cc},      
-  {"black", 0x000000}  
+  {"white", 0xffffffU},
+  {"yellow", 0xffff00U},    
+  {"orange", 0xff8000U}, 
+  {"magenta", 0xff00ffU},
+  {"lightgreen", 0x00ff00U}, 
+  {"lightblue", 0x00c0ffU}, 
+  {"gray", 0x808080U},   
+  {"green", 0x008000U},
+  {"red", 0xff0000U},        
+  {"blue", 0x3333ccU},      
+  {"black", 0x000000U}  
 }
 
 -- start with first color
