@@ -8,7 +8,7 @@ To install, follow the instructions at https://xournalpp.github.io/guide/plugins
 
 1. Install LUA (<https://www.lua.org/>)
    - This should be easy in any GNU/Linux box (e.g. in a Ubuntu box, `sudo apt-get install lua5.3` should work)
-   - In windows, you can follow https://www.youtube.com/watch?v=4lRVNiFt130 (you only have to follo the process up to minute 3:00 or so). Remember to get the binaries for the 64-bit or 32-bit version. In the video you will see that it unzips the zip into a directory, renames luaXX.exe to lua.exe and then adds that directory to the system path.
+   - In windows, you can follow https://www.youtube.com/watch?v=4lRVNiFt130 (you only have to follo the process up to minute 3:00 or so). Remember to get the binaries for the 64-bit or 32-bit version. In the video you will see that it unzips the zip into a newly created directory (usually under `c:\windows\Program Files\`), renames `luaXX.exe` to `lua.exe` and then adds that directory to the system path (through editing the system variables in the windows control panel application).
 
 2. Install configuration
 
